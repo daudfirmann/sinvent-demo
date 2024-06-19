@@ -13,7 +13,7 @@ use App\Http\Controllers\RegisterController;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
 
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
